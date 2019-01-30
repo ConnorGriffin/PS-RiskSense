@@ -38,7 +38,7 @@ function Get-RiskSenseHost {
               }
             ],
             "page": $page,
-            "size": 2000
+            "size": 250
           }'
     }
     

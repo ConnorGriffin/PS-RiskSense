@@ -12,7 +12,7 @@
 RootModule = 'PS-RiskSense.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.0.1'
+ModuleVersion = '0.0.2'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -110,7 +110,12 @@ PrivateData = @{
         # IconUri = ''
 
         # ReleaseNotes of this module
-        ReleaseNotes = '0.0.1: Initial release.'
+        ReleaseNotes = @(
+                '0.0.2: 
+                 * Moved API base URL to module scoped variable.
+                 * Changed host pagination to use smaller pages.',
+                '0.0.1: Initial release.'
+            )
 
     } # End of PSData hashtable
 

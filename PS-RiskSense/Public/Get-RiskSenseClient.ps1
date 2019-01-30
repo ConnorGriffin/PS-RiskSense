@@ -17,7 +17,6 @@ function Get-RiskSenseClient {
     )
 
     begin {
-        $uri = 'https://platform.risksense.com/api/v1'
         $headers = Get-AuthHeader $Token
     }
     
