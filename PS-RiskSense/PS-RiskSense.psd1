@@ -12,7 +12,7 @@
 RootModule = 'PS-RiskSense.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.0.2'
+ModuleVersion = '0.0.3'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -71,7 +71,8 @@ PowerShellVersion = '4.0'
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
 FunctionsToExport = @(
                         'Get-RiskSenseClient',
-                        'Get-RiskSenseHost'
+                        'Get-RiskSenseHost',
+                        'Remove-RiskSenseHost'
                     )
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
@@ -111,6 +112,9 @@ PrivateData = @{
 
         # ReleaseNotes of this module
         ReleaseNotes = @(
+                '0.0.3:
+                 * Added Remove-RiskSenseHost.
+                 * Modified help text.',
                 '0.0.2: 
                  * Moved API base URL to module scoped variable.
                  * Changed host pagination to use smaller pages.',
