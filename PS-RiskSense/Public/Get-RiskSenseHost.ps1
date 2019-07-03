@@ -1,12 +1,12 @@
 function Get-RiskSenseHost {
     <#
     .SYNOPSIS
-        List clients
+        List hosts.
     .DESCRIPTION
-        List clients in RiskSense. 
-        Authority: Technician, User, Group Manager, Manager
+        List hosts in RiskSense client. 
+        Authority: User, Group Manager, Manager
     .EXAMPLE
-        Get-RiskSenseClient
+        Get-RiskSenseHost -ClientID 1 -Token 'secrettoken'
     #>
 
     [CmdletBinding()]
