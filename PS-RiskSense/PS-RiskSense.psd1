@@ -12,7 +12,7 @@
 RootModule = 'PS-RiskSense.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.0.3'
+ModuleVersion = '0.0.4'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -116,6 +116,8 @@ PrivateData = @{
 
         # ReleaseNotes of this module
         ReleaseNotes = @(
+                '0.0.4:
+                * Added cmdlets to faciliate exporting host findings',
                 '0.0.3:
                  * Added Remove-RiskSenseHost.
                  * Modified help text.',
