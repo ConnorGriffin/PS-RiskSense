@@ -72,7 +72,11 @@ PowerShellVersion = '4.0'
 FunctionsToExport = @(
                         'Get-RiskSenseClient',
                         'Get-RiskSenseHost',
-                        'Remove-RiskSenseHost'
+                        'Remove-RiskSenseHost',
+                        'Get-RiskSenseFinding',
+                        'Invoke-RiskSenseFindingExport',
+                        'Get-RiskSenseExport',
+                        'Get-RiskSenseExportStatus'
                     )
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
